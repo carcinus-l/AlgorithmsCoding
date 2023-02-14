@@ -15,7 +15,13 @@ public class Topic1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String line = null;
         while ((line = br.readLine()) != null) {
-
+            int n = Integer.parseInt(line);
+            int max = 0;
+            for (int i = 0; i < n; i++) {
+                int m = Integer.parseInt(br.readLine().split(" ")[2]);
+                max = Math.max(max, m);
+            }
+            System.out.println(max);
         }
     }
 
