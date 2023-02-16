@@ -53,27 +53,5 @@ public class Topic5 {
         }
     }
 
-    public static String reverseWord(String s) {
-        StringBuffer sb = new StringBuffer();
-        String[] words = s.split(" ");
-        for (String word : words) {
-            sb.append(" ");
-            char[] chars = word.toCharArray();
-            int index = chars.length - 1;
-            char op = ' ';
-            if (chars[index] == ',' || chars[index] == '.' || chars[index] == '?') {
-                op = chars[index];
-                index--;
-            }
-            while (index >= 0) {
-                sb.append(chars[index--]);
-            }
-            if (op != ' ') {
-                sb.append(op);
-            }
-        }
-        return sb.substring(1);
-
-    }
 
 }
