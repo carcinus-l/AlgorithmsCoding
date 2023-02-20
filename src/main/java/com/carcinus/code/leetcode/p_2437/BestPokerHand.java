@@ -1,9 +1,9 @@
 package com.carcinus.code.leetcode.p_2437;
 
 /**
- * @link https://leetcode.cn/problems/best-poker-hand/
+ * @link <a href="https://leetcode.cn/problems/best-poker-hand/">...</a>
  */
-public class Solution {
+public class BestPokerHand {
 
     public String bestHand(int[] ranks, char[] suits) {
         int[] rc = new int[14];
