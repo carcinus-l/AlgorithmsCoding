@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1238;
+package com.carcinus.code.leetcode.p_1201_1300.p_1238;
 
 import java.util.ArrayList;
 import java.util.List;

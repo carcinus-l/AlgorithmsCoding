@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_89;
+package com.carcinus.code.leetcode.p_1_100.p_89;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class GrayCode {
         List<Integer> res = new ArrayList<>();
 //        directArrangement(res, n);
 //        mirrorArrangement(res, n);
-        
+
         return res;
     }
 

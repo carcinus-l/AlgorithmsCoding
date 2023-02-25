@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1326;
+package com.carcinus.code.leetcode.p_1301_1400.p_1326;
 
 /**
  1326. 灌溉花园的最少水龙头数目
