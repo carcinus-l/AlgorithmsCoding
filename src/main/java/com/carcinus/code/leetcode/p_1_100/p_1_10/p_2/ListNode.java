@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1_100.p_2;
+package com.carcinus.code.leetcode.p_1_100.p_1_10.p_2;
 
 public class ListNode {
     int val;

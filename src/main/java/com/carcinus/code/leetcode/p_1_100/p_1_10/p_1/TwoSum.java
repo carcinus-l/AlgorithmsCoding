@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1_100.p_1;
+package com.carcinus.code.leetcode.p_1_100.p_1_10.p_1;
 
 /**
  * 1. 两数之和

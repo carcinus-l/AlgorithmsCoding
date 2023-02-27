@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1_100.p_3;
+package com.carcinus.code.leetcode.p_1_100.p_1_10.p_3;
 
 /**
  * 3. 无重复字符的最长子串

@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1_100.p_5;
+package com.carcinus.code.leetcode.p_1_100.p_1_10.p_5;
 
 /**
  * 5. 最长回文子串

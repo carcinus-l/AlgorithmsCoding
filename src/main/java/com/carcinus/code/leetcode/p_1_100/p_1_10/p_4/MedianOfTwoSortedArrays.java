@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1_100.p_4;
+package com.carcinus.code.leetcode.p_1_100.p_1_10.p_4;
 
 /**
  * 4. 寻找两个正序数组的中位数
