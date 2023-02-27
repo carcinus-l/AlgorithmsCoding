@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_1247;
+package com.carcinus.code.leetcode.p_1201_1300.p_1247;
 
 /**
  * 1247. 交换字符使得字符串相同

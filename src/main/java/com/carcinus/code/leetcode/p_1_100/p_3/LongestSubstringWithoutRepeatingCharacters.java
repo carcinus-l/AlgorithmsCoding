@@ -4,6 +4,9 @@ package com.carcinus.code.leetcode.p_1_100.p_3;
  * 3. 无重复字符的最长子串
  *
  * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">...</a>
+ *
+ *  暴力遍历
+ *  bit位图存是否遇到
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 

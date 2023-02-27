@@ -2,8 +2,9 @@ package com.carcinus.code.leetcode.p_1_100.p_1;
 
 /**
  * 1. 两数之和
- *
  * @link <a href="https://leetcode.cn/problems/two-sum/description/">...</a>
+ *
+ * 直接暴力遍历
  */
 public class TwoSum {
 

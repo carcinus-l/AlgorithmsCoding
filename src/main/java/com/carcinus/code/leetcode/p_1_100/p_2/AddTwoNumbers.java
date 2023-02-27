@@ -2,8 +2,10 @@ package com.carcinus.code.leetcode.p_1_100.p_2;
 
 /**
  * 2. 两数相加
- *
  * @link <a href="https://leetcode.cn/problems/add-two-numbers/">...</a>
+ *
+ * 直接链表遍历相加
+ * 处理进位和长度剩余结点
  */
 public class AddTwoNumbers {
 
