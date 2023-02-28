@@ -11,36 +11,38 @@ package com.carcinus.code.leetcode.p_1_1000.p_1_100.p_1_10.p_5;
 public class LongestPalindromicSubstring {
 
     public String longestPalindrome(String s) {
-
-        int max = 0, start = 0, end = s.length(), l, r;
-        for (int i = 1; i < s.length() - 1; i++) {
-            l = i;
-            r = i;
-            if (s.charAt(i) == s.charAt(i + 1)) {
-                r++;
-            }
-            if (s.charAt(i) == s.charAt(i - 1)) {
-                l--;
-            }
-            while (l >= 0 && r < s.length()) {
-                if (s.charAt(l) != s.charAt(r)) {
-                    int t = r - l;
-                    if (max < t) {
-                        max = t;
-                        start = l;
-                        end = r;
-                    }
-
-                    break;
-                }
-                l--;
-                r++;
-            }
+        if (s == null || s.length() < 2) {
+            return s;
         }
-        return s.substring(start, end);
+        int strLen = s.length();
+        int maxStart = 0;  //最长回文串的起点
+        int maxEnd = 0;    //最长回文串的终点
+        int maxLen = 1;  //最长回文串的长度
+
+        boolean[][] dp = new boolean[strLen][strLen];
+
+        for (int r = 1; r < strLen; r++) {
+            for (int l = 0; l < r; l++) {
+                if (s.charAt(l) == s.charAt(r) && (r - l <= 2 || dp[l + 1][r - 1])) {
+                    dp[l][r] = true;
+                    if (r - l + 1 > maxLen) {
+                        maxLen = r - l + 1;
+                        maxStart = l;
+                        maxEnd = r;
+
+                    }
+                }
+
+            }
+
+        }
+        return s.substring(maxStart, maxEnd + 1);
+
     }
 
+
+
     public static void main(String[] args) {
-        System.out.println(new LongestPalindromicSubstring().longestPalindrome("aaba1"));
+        System.out.println(new LongestPalindromicSubstring().longestPalindrome("bb"));
     }
 }
