@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_2001_3000.p_2357;
+package com.carcinus.code.leetcode.p_2001_3000.p_2301_2400.p_2357;
 
 /**
  * 2357. 使数组中所有元素都等于零
