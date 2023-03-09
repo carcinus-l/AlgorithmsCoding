@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_2001_3000.p_2301_2400.p_2373;
+package com.carcinus.code.leetcode.p_2001_3000.p_2301_2400.p_2371_2380.p_2373;
 
 /**
  * 2373. 矩阵中的局部最大值
