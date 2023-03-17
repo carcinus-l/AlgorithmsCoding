@@ -1,4 +1,4 @@
-package com.carcinus.code.leetcode.p_2001_3000.p_2437;
+package com.carcinus.code.leetcode.p_2001_3000.p_2401_2500.p_2437;
 
 /**
  * @link <a href="https://leetcode.cn/problems/best-poker-hand/">...</a>
