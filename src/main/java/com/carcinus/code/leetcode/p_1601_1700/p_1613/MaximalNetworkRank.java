@@ -22,13 +22,14 @@ public class MaximalNetworkRank {
             roadNumbers[roads[i][0]]++;
             roadNumbers[roads[i][1]]++;
         }
-        int max = 0, maxCity = 0, res = 0;
+        int max = 0, secondMax = 0, maxCity = 0, secondCity = 0, res = 0;
+
 
         for (int i = 0; i < roadNumbers.length; i++) {
             int t = roadNumbers[i];
             if (t >= max) {
-                res = t + max;
-                if(cityRoads[i][maxCity] == 1) {
+                res = t + max - cityRoads[i][maxCity];
+                if (cityRoads[i][maxCity] == 1) {
                     res--;
                 }
                 max = t;
@@ -40,8 +41,8 @@ public class MaximalNetworkRank {
 
     public static void main(String[] args) {
         MaximalNetworkRank object = new MaximalNetworkRank();
-        System.out.println(object.maximalNetworkRank(4, new int[][]{
-                {0,1},{0, 3}, {1, 2}, {1, 3}
+        System.out.println(object.maximalNetworkRank(8, new int[][]{
+                {0, 1}, {2, 4}, {1, 2}, {2, 3}, {5, 6}, {5, 7}
         }));
     }
 }
